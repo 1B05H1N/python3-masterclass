@@ -1,0 +1,24 @@
+Dictionaries
+
+Question 1:
+
+Which code defines a dictionary? 
+- {"Trump": "USA", "Merkel": "Germany"} # dictionaries are initialized with curly braces and are key value pairs of immutable data types separated by a comma
+
+Question 2:
+
+We have defined a dictionary as follows:
+
+    d = {"Trump": "USA", "Merkel": "Germany"}
+
+How do we access the first entry (Trump / USA)? 
+- print(d["Trump"]) # dictionary is not a list so you can't call the position, and printing USA from the dictionary will not work
+
+Question 3:
+
+We have defined a dictionary as follows:
+
+d = {"Trump": "USA", "Merkel": "Deutschland"}
+
+How do you check if the entry (Trump / USA) is contained in the Dictionary?
+-"Trump" in d # print(d[Trump"]) will work, the others will not work

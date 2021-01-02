@@ -1,0 +1,32 @@
+List Slicing
+
+Question 1:
+
+Which letter outputs the following program?
+
+    print("Hello World"[-2])
+
+-l # this will give the letter from the -2 or second to last position
+
+Question 2:
+
+What does the following program output?
+
+print("John Doe"[-3:])
+
+-Doe # give the last 3 through end letters
+
+Question 3:
+
+What does the following program output?
+
+    print("John Doe"[:-3])
+
+- John # :-3 removes the last 3 letters
+
+Question 4:
+
+What does the following program output?
+
+    print("Hello World!"[6:-1])
+-World # slice 6: removes the first 6 chars and :-1 removes the !

@@ -1,0 +1,27 @@
+Python:
+
+Object Oriented Programming (OOP)
+
+Problem:
+
+So far we can already create functions and variables
+
+But many "loose" functions / variables quickly become confusing...
+
+Example of student: 
+
+First name
+Last name
+Age
+Subject
+getFullName()
+
+Solution:
+
+Object orientation
+
+This allows us to bundle all such functions
+
+And our code will be much cleaner and clearer 
+
+We can call properties of student. This allow us to use modules (classes that other people created).

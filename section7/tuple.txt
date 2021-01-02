@@ -1,0 +1,29 @@
+Tuple
+
+Problem:
+
+Sometimes we just want to quickly group 2 values together
+
+So e.g first name + last name
+
+However, we would like to have separate access to the values
+
+We also need tuples if want a function to return multiple values:
+
+	Imagine e.g. a function "getStudent()", which should return both the first name and the last name - this is not possible without a tuple
+
+Python: Dictionaries 
+
+Problem:
+
+We would like to be able to save an assignment
+
+For example, we assign the phone number "+4912345678" to the family Mustermann.
+
+Dictionaries 
+
+Solution: Dictionaries
+
+We can answer the following question efficiently 
+
+What telephone number does the Mustermann family have?
