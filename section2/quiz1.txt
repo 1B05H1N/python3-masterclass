@@ -1,0 +1,29 @@
+quiz 1
+
+
+Question 1
+
+v = "Hello World"
+print(v)
+
+Which kind of variable is v ?
+- String
+
+Question 2
+
+v = 14
+print(v)
+
+What type of variable is v ? 
+- Number 
+
+v = str(14)
+print(v)
+
+What type of variable is v ? 
+- String
+
+Which of the following is a working and correct Python program, that doesn't create any errors when executing? 
+
+- B) print("You have only $" + str(10) + " on your account.")
+

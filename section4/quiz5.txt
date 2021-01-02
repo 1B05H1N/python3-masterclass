@@ -1,0 +1,35 @@
+The Not Operator
+
+Question 1:
+The following code example is given:
+
+age = 25
+if not age > 30:
+	print("hello world")
+
+Will "hello world" be printed? 
+-Yes # 25 is not greater than 30
+
+Question 2: 
+When is "hello world" printed? (a, b are True/False values)
+
+Play through the given answer options in your head, and consider whether the whole expression is fulfilled or not. 
+
+Code: 
+
+if a and (not b):
+	print("hello world")
+- a = True, b = False
+
+Question 3: 
+
+A small and or or can make a big difference. For example, the following printout checks whether a call has been made during office hours (9-15:59)_:
+
+hour >= 9 and hour < 16
+
+Now a mistake has been made here, the following expression is inadvertently in our program:
+
+hour >= 9 or hour < 16
+
+For which values is the 2nd expression fulfilled? 
+- All times (0 - 24 h) # greater than or equal to 9 and less than 16

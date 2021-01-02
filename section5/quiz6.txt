@@ -1,0 +1,25 @@
+In, loops,...
+
+Question 1: 
+
+How do you check whether the "Hit" element is included in the following list?
+
+list1 = ["Fail", "Fail", "Hit", "Fail", "AnotherHit"]
+
+-"Hit" in list1
+
+Question 2: 
+What is the short of of else in Python? 
+-elif
+
+Question 3:
+
+How often is the following for-loop run through? 
+
+for i in range(1, 10):
+	print(i)
+-9
+
+Question 4: 
+What do you have to pay attention to when using a while-loop? 
+-B) that the loop terminates, that is, it does not form an endless loop

@@ -1,0 +1,17 @@
+Motivation
+
+So far you are still learning the basics of the programming language python. Everything will build on this later - so stick to it. 
+
+For example, lists appear in almost every program written in Python. Also here in the course, we use them for example...
+
+...for out crawler, where you extract data from a website (we create a list form the headlines of articles)
+
+...for DataScience, we analyze large amounts of data (data is available as a list)
+
+...for out desktop application, where we write a tool that manages students (the students are available as a list)
+
+...for out web application, where we calculate an exchange rate table 
+
+...in addition, of course, with various other examples and exercises 
+
+So stick with it any case! :D

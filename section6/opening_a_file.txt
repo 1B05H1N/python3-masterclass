@@ -1,0 +1,21 @@
+Open, Read, Write Files
+
+Problem: 
+
+Up to now our variables were lost by the program after each restart
+
+How do we manage to restart the program, but still keep the data? 
+
+Solution:
+We read/write a file!
+
+Read File 
+
+CSV import: 
+
+CSV is a file format with which you can easily read in tabular data
+
+Imagine, for example, recording an attendance list in Excel...
+
+...if you export them as ".csv", we can read them really easily with Python
+

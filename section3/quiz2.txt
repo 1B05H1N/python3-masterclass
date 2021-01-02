@@ -1,0 +1,13 @@
+question 1
+How can you define a list in python? 
+- B) ["name1", "name2"]
+
+question 2 
+How do you access the third element?
+firstnames = ["name1" + "name2" + "name3" + "name4"]
+- C) firstnames[2] # it is at position 2
+
+question 3
+How do you extend the list wars with a third element? 
+wars = [1, 2]
+-wars.append(3)

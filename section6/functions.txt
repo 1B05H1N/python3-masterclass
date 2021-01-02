@@ -1,0 +1,19 @@
+Functions
+
+Functions allow us to combine code and make code more efficient. 
+
+Why do you need functions at all? 
+
+Problem:
+
+So far we have simply typed down the code
+
+In the long run, however, this will be very confusing
+
+Solution: 
+
+We use functions
+
+This allows us to split code into logical blocks 
+
+Our program becomes clearer 

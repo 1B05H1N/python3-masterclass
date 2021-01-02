@@ -1,0 +1,11 @@
+Exercise Sheet
+
+When learning a program language, it is important you have real-world experience and are able to develop your own programs. 
+
+I've provided you with an exercise sheet here. Have a look at the file "Finish Python Basics", there you will find some tasks :)
+
+You can find this exercise sheet in the course materials you downloaded int he first section. It is in the folder "02, 03 - Python Basics".
+
+Enjoy working on this exercise!
+
+Note: To open.ipynb files, you must first start your Jupyter environment (see section 1). From this environment you can then select and open the file. A single double click on the.ipynb file does not work. 

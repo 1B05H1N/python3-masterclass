@@ -1,0 +1,16 @@
+Comments in Python
+
+Question 1
+Which character(s) do you start a comment in Python (which should not be executed as code)?
+
+- #
+
+Question 2
+Which numbers are output when the following program is executed? 
+
+print(1)
+# print(2)
+print(3)
+# print (4)
+
+- 1, 3

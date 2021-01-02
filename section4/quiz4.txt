@@ -1,0 +1,24 @@
+If & Booleans
+
+Quiz 4
+
+Question 1: 
+Will "Hello World" be printed? 
+
+if True and False:
+	print("Hello World")
+-No # and is a boolean comparison operator 
+
+Question 2:
+Will "Hello World" be printed? 
+
+if True or False:
+	print("Hello World")
+-Yes # comparison operator
+
+Question 3: 
+
+In order to sign contracts, a person must usually be of legal age (18 years old). How would you formulate this condition with Python? 
+
+Note: Be aware of the difference between < and <= or > and >=. In addition, check the incident (person is 18 years old) manually in the head.
+- age >= 18

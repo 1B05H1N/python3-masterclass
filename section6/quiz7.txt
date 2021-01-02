@@ -1,0 +1,8 @@
+Question 1: 
+
+In the last lesson I gave you an assignment on birth statistics. When you have completed this task - what do you get as a result?
+
+In concrete terms: How often does the name Max appear as a male first name in California between 1950 and 2000 (both inclusive)? 
+-6385
+
+Question 2: 

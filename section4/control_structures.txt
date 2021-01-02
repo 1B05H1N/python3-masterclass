@@ -1,0 +1,13 @@
+Control Structures 
+
+If, else
+
+Relational operators 
+
+Check whether an element is in a list
+
+Elif 
+
+The while - loop
+
+The for - loop

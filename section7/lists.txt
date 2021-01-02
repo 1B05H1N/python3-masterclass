@@ -1,0 +1,10 @@
+Lists in Python
+
+Problem: 
+We already know lists...
+
+...but how do we get the first 10 participants (entries) of a list? Or the last 10?
+
+Solution:
+
+List Slicing!

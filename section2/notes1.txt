@@ -1,0 +1,30 @@
+Notes
+
+"""
+The Complete Python 3 Masterclass 
+From Beginner To Pro
+"""
+
+Python Basics
+
+Numbers
+Variables 
+Lists - multiple sets of data 
+
+How to apply the knowledge: 
+	Display Graphics
+	Convert Data Types
+	
+Numbers 
+
+print (1+1)
+
+Variables 
+Variables are an essential concept of programming languages. Think of them as containers for something for reuse. 
+
+Variable is always the latest value that was given to it.
+
+They're important and we can use them for a lot of things
+
+Strings
+They are data types that contain text. We create a string by using quotation marks. We can store strings in variables, and we can concatenate strings with other data types

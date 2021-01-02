@@ -1,0 +1,31 @@
+Info: Birth statistics
+
+Hints for the next lesson:
+
+    States of the USA
+
+    Plotting Problems
+
+Note 1: The states of the USA
+
+The states of the USA can be found here - California has the abbreviation "CA" (you will need it in the next lesson).
+
+=> https://de.wikipedia.org/wiki/Liste_of_the_States_of_the_United_States
+
+Note 2: What to do if the plot does not work correctly?
+
+When you run the code for the next lesson, it is possible that the graphic will not be displayed as I see it. Probably something has changed on the Matplotlib side, so the code has to be slightly adapted.
+
+In the next lesson I pass the data to Matplotlib as a list of strings, i.e. as X-values I pass e.g. ['1910', '1911', '1912', ..., '2014'] ... This could still be plotted correctly, but occasionally this causes problems. But if you pass the x-values as a list of numbers, so [1910, 1911, 1912, ..., 2014], that should fit so far. The same applies to the Y-values, which should also be passed as a list of numbers.
+
+So in the next lesson you will need the following code instead:
+
+    xs.append(line_splitted[2])
+    ys.append(line_splitted[5])
+
+The code here (the int() call around it converts the type into an int):
+
+    xs.append(int(line_splitted[2]))
+    ys.append(int(line_splitted[5]))
+
+You can find more information in the discussion area.
