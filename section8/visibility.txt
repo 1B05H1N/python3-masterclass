@@ -1,0 +1,61 @@
+Python
+
+Visibility of Methods and Variables
+
+How a variable is visibile from a specific point of view
+
+Visibility of methods and variables
+
+Example:
+
+Imagine, we want to model a supermarket
+
+All that is important to us is that we can shop in the supermarket
+
+So we need the following method:
+
+shopping()
+
+Example:
+
+But for supermarket to work, many different things are needed. 
+
+Cashiers (m/f) must be employed
+
+Electricity must be paid for
+
+New products must be ordered
+
+Example: 
+
+As a customer, I'm not supposed to notice any of this - I'm just supposed to be able to shop. 
+
+It would be best if things were "hidden" from me as a customer
+
+As a customer I can only shop
+
+As a customer I cannot go to the supermarket and order more apples - only the store manager decides whether or not to order more apples. 
+
+Result: 
+
+As a customer I only have access to certain functionalities 
+
+I am not allowed / not able to access the rest 
+
+This is what now an example "from real life"
+
+But, transferred to python: 
+
+Tool that downloads a web page
+
+How exactly the data packets are sent over the Internet is none of my business as a user
+
+The only thing relevant to me is that the website is being downloaded. I'm not interested in the background procedures. 
+
+Solution: 
+
+Visibility of methods and variables
+
+We can hide methods and variables for parts of our source code
+
+Private vs public classes
