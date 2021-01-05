@@ -13,7 +13,7 @@ class Student():
 		self.term = 1
 
 	def name(self):
-		return self.firstname + " lastname " + self. lastname
+		return self.firstname + " Lastname " + self.lastname
 
 class WorkingStudent(Student):
 	def __init__(self, firstname, lastname, company):
@@ -23,8 +23,18 @@ class WorkingStudent(Student):
 		def name(self):
 			return super().name() + " (" + self.company + ")"
 
-student = WorkingStudent("John", "Doe", "ABC Company")
-student1 = student("Monica", "Fisher")
+"""student = WorkingStudent("John", "Doe", "ABC Company")
+student1 = Student("Monica", "Fisher")
 print(student.name())
 print(student1.name())
+"""
 
+students = [ 
+	WorkingStudent("Max", "Miller", "ABC Company"),
+	Student("Monica", "Fisher"),
+	Student("Eric", "Beric"),
+	WorkingStudent("Franziska", "Brewer", "Beer Company")
+] # polymorphism - store student as a working student or student. This is possible because you can inherit Student
+
+for student in students:
+	print(student.name())
