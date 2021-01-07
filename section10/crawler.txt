@@ -1,0 +1,35 @@
+Python: Crawler
+
+Crawler
+
+We want to extract data from a website
+
+Idea: We write a program in Python, which retrieves the website and then extracts the data from it
+
+We want to extract data from a website
+
+1. We call up the website (HTML)
+2. ...and then extract the relevant data from it
+
+What happens in the background? 
+
+Python makes a request to the server
+
+Python can read the response (HTML) and extract the relevant data from it
+
+We will use the following tools:
+
+Requests: 
+This allows us to easily access the HTML code of the page
+
+Beautiful soup:
+This allows us to conveniently extract the data from the HTML code
+
+Example
+
+What could you use a crawler for? 
+Get me the current share prices
+Read a message page, and write all headlines into a .csv file
+Extract information from an extensive product catalog
+
+You're not supposed to break a site
