@@ -1,0 +1,29 @@
+Modules in Python
+
+Problem:
+
+Until now our code was only ever in one file
+
+What do we do if our application becomes really comprehensive/big/broad? 
+
+We don't want to have 10k lines of code in 1 file
+
+Solution:
+
+We divide our code into modules
+
+This allows us to develop modules separately from each other
+
+And then finally load into our program
+
+Modules can be thought of as puzzle pieces that fit together 
+
+Modules:
+
+Embed and load another file
+Different import - ways to load a module
+Modules in a folder
+	Not a good idea
+
+Example of a module integrated in Python: csv
+

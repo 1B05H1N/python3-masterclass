@@ -1,0 +1,17 @@
+Modules
+
+Question 1: 
+How do you integrate the pandas module? 
+-import pandas
+
+Question 2: 
+How do you call the read_csv() function from the pandas module after you have included the whole module with the import function? 
+-pandas.read_csv()
+
+Question 3:
+Which command do you need to include the pandas module to use the read_csv() and read_excell() functions directly from the module (like any function in standard python can call)?
+-from pandas import read_csv, read_excel
+
+Question 4: 
+How can you include the module pandas and rename the handle name so that you can use an abbreviation (here: pd) instead of the module name?
+-import pandas as pd
