@@ -1,0 +1,10 @@
+What is HTML? 
+
+Language used to determining file structure
+
+index.html is usually the front page
+
+Code is usually structured in tags, most use an opening and closing tag
+
+<p>I am content as a paragraph</p>
+
