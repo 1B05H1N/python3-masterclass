@@ -1,0 +1,17 @@
+Note: Encoding, Writing a File
+
+Note on the next lessons:
+
+In the next lesson you will describe a file with Python. Occasionally under Windows it happens that the.csv file cannot be created and the procedure throws a "UnicodeEncodeError" as error. This error means that Windows does not know how to write the special character (here: smileys, e.g.
+
+If you are affected by this error, you can fix the problem by telling Python explicitly which encoding to use to open the file. This way Python knows exactly how the special characters should be stored.
+
+So to open a file for writing, despite UnicodeEncodeError:
+
+    # This leads to errors on some Windows systems:
+    open('crawler_output.csv', 'w', newline='')
+     
+    # This should definitely work
+    open('crawler_output.csv', 'w', newline='', encoding='utf-8')
+
+Apparently only a few Windows systems are affected, under Mac / Linux everything should work without encoding parameters. You can also add to the parameter there, then the program can be used more universally.

@@ -1,0 +1,5 @@
+Open CSV File with Excel
+
+In case you are having issues opening a CSV file in Excel, I can recommend following post on stackoverflow.
+
+https://stackoverflow.com/questions/17953679/how-to-correctly-display-csv-files-within-excel-2013

@@ -1,0 +1,58 @@
+import requests 
+
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+import time
+import csv
+
+class CrawledArtcle():
+	def __init__(self, title, emoji, content, image):
+		self.title = title
+		self.emoji = emoji
+		self.content = content
+		self.image = image
+
+class ArtcleFetcher():
+	def fetch(self):
+		url = "http://python.beispiel.programmierenlernen.io/index.php"
+		
+		articles = []
+
+		while url != "":
+			print(url)
+			time.sleep(1)
+			r = requests.get(url)
+			doc = BeautifulSoup(r.text, "html.parser")			
+			
+		
+			for card in doc.select(".card"):
+				title = card.select(".card-title span")[1].text
+				emoji = card.select_one(".emoji").text
+				content = card.select_one(".card-text").text
+				image = urljoin(url, card.select_one("img").attrs["src"])
+				print(image)
+				crawled = CrawledArtcle(title, emoji, content, image)
+			articles.append(crawled)
+
+			next_button = doc.select_one(".navigation .btn")
+			if next_button:
+				next_href = next_button.attrs["href"]
+				next_href = urljoin(url, next_href)
+				url = next_href
+				print(next_href)
+			else:
+				url = " "
+
+		return articles
+
+fetcher = ArtcleFetcher()
+fetcher.fetch()
+for article in fetcher.fetch():
+	print(article.emoji + " : " + article.title)
+
+with open('crawler_ouput', 'w', newline = ' ') as csvfile:
+	articlewriter = csv.writer(csvfile, delimiter = ';',
+							quotechar = '"', quoting = csv.QUOTE_MINIMAL)
+	for article in fetcher.fetch():
+		articlewriter.writerow([article.emoji, article.title, article.image, article.content])
+
