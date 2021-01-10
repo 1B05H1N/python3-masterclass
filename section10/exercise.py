@@ -14,14 +14,14 @@ class CrawledArticle():
 
 class ArticleFetcher():
 	def fetch(self):
-		url = "http://python.beispiel.programmierenlernen.io/index.php"
+		url = "http://python.beispiel.programmieresnlernen.io/index.php"
 		time.sleep(1)
 		print(url)
 		r = requests.get(url)
 		doc = BeautifulSoup(r.text, "html.parser")
 
 		articles = []
-		for card in doc.select(".card"):
+		for card in doc.select(".card"): 
 			emoji = card.select_one(".emoji").text
 			content = card.select_one(".card-text").text
 			title = card.select(".card-title span")[1].text
