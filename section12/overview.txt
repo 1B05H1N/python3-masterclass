@@ -1,0 +1,53 @@
+Overview: Data Strcutures
+
+I would like to give you a brief overview of the different data structures that you have already got to know:
+
+List: ["Item"]
+
+    Can be subsequently extended
+
+    Sequence is maintained
+
+    Elements may occur more than once
+
+Dictionary: {"key": "value"}
+
+    Stores an assignment of a key to a value
+
+    Sequence is not maintained
+
+    Values may occur more than once
+
+    However, each key may only exist once
+
+Set: {"Element1"}
+
+    Can be subsequently extended
+
+    Sequence is not maintained
+
+    Index - notation s[15] is not supported
+
+    Each element occurs only once
+
+    If you want to guarantee that each element only occurs once inside - much more efficient than a list, because a set is optimized for it
+
+Priority queue: queue.PriorityQueue()
+
+    Optimized data structure to sort items by priority
+
+    Elements are automatically sorted according to their priority
+
+    Direct access to the elements is not possible
+
+    You can only access the first item or remove the first item
+
+    Enough for a queue by priority :)
+
+    You don't need it as often as a list / set, but if you can use it for one purpose - then it is often significantly faster than a list for such purposes.
+
+Tuple ("Element1", "Element2")
+
+    Similar to a list
+
+    Cannot be extended at a later date

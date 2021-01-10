@@ -1,0 +1,13 @@
+MISC - Expert Knowledge 
+
+Variable Parameters
+
+Working with dates
+
+Lambda Functions
+
+Sorting data
+
+Time difference
+
+Strings formatting
