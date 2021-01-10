@@ -1,0 +1,31 @@
+Question 1:
+
+You want to assign a city to a postal code, e.g. 81369 = Munich, 94032 = Passau, etc. Each postal code occurs only once.
+
+Later, you want to be able to determine which city belongs to a postal code. For example, the user should be able to enter 81369, and the program should automatically add "Munich" for the city.
+
+Which data structure is suitable here?
+-Dictionary
+
+Question 2:
+
+You want to write a program in which you can capture cities of Europe. Each city may only occur once, so if, for example, "Munich" has already been entered, "Munich" should not be able to be entered again.
+
+Which data structure is suitable here?
+-Set
+
+Question 3:
+
+You have been asked to temporarily store all orders for an online shop in a data structure so that you can generate a report that will be printed later.
+
+The data originally comes sorted from a database. This sort order is to be retained.
+
+No search by order ID, customer, etc. is required. You only need to temporarily store all orders so that you can generate the evaluation (print them out one after the other). Any additional queries are not required.
+
+Which data structure is suitable here?
+-List
+
+Question 4:
+
+You have written a function and want to return several values (always the same, for example, first name, last name, age) of a customer. What data structure would you return here? 
+-Tuple

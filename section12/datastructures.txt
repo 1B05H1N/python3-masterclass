@@ -1,0 +1,17 @@
+Data Structures 
+
+What are data structures
+
+Example:
+A data structure is an object that contains several elements
+
+List, Dictionary 
+
+Why do we need data structures? 
+
+Various applications
+
+List: Ordered listing of elements
+Dictionary: Assignment of Key to Value
+Set: Unordered collection of elements, where each element may occur once
+PriorityQueue: Automatic sorting of elements 

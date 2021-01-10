@@ -1,0 +1,6 @@
+Question 1:
+
+How many different names are there in the names.csv file?
+
+Note: Remember that the first line is only the column header - you can ignore it!
+-30274

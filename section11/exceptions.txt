@@ -1,0 +1,26 @@
+Exceptions in Python
+
+Problem:
+Occasionally, things can happen that we didn't expect to happen. 
+
+Example: We read a file, and all of the sudden the hard disk crashes, and the file can no longer be read.
+
+Or: We try to read a file from the Internet and the file no longer exists
+
+Solution:
+
+We write our program as if the problem would never occur
+
+And if it does occur, an exception will be thrown
+
+By default, the program is then terminated 
+
+But we can also get involved in this process and react to an unexpected error
+
+Important: 
+
+Don't abuse exceptions
+
+Really only use them for "critical" errors that occur quite rarely 
+
+In the next lesson you will learn how exceptions work in Python :) 
