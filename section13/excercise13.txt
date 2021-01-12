@@ -1,0 +1,7 @@
+Exercise: Functions Parameters and Lambda Functions
+
+We would like to practice this a bit now... Therefore I have prepared another exercise sheet for you :)
+
+You can find this exercise sheet in the course materials you downloaded in the first section. It is located in the folder "13, 14, 15 - Miscellaneous", the file is called "Exercise function parameters".
+
+Have fun with the tasks! :)
