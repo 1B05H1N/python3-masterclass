@@ -1,0 +1,13 @@
+Python: MISC
+
+PyCharm
+
+Python - Run programs from command line / terminal
+
+Reading and processing input from the command line 
+
+parameter(sys.argv)
+
+Working with path specifications
+
+Open files with special characters

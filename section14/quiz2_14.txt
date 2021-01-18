@@ -1,0 +1,30 @@
+String - Functions
+
+Question 1:
+
+Which command do you use to convert the string s = "WhO, wRites LiKe That" in a string in which every letter is in lowercase? 
+
+Answer: s.lower()
+
+
+Question 2:
+
+How do you remove the spaces at the beginning and end and the dots from the string s = " ... a thought... ", so that you get the string "a thought"? 
+
+Answer: s.strip(" .")
+
+Question 3:
+
+How do you change the string s = "Tomorrow I'll be really productive" in "Today I'll be really productive"?
+
+    s = "Tomorrow I will be really productive
+
+Answer: s.replace("Tomorrow", "Today")
+
+Question 4:
+
+How do you format a string to output the following sentence?
+
+"40,000 spectators celebrated the 3-1 victory in the sponsoring arena."
+
+Answer: "{number} spectators cheered the {result} victory {stage}.".format(result = "3.1", stage = "in the sponsoring arena", number = "40.000")
