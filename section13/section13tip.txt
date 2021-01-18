@@ -1,0 +1,6 @@
+User-Tipp: Regular Expressions
+
+Note to the next lesson: The next lesson is about regular expressions, an incredibly powerful text search tool.
+
+A participant just pointed out to me a cool online tool with which you can test regular audrings even easier. I would like to pass this tip on to you: https://pythex.org
+
