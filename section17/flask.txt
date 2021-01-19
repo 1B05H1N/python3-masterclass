@@ -1,0 +1,19 @@
+Flask
+
+Problem: 
+
+We want to comfortably develop websites with Python
+
+But how does that work?
+
+What happens in the background? 
+
+Firefox pooints to a server, and makes a request to the server. Flask makes web development possible with as little code as possible, then sends the request back to firefox.
+
+Flask
+
+In the next few lessony you'll learn:
+
+A few basics in HTML
+
+And develop a simple website with flask in python!

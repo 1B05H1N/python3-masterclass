@@ -1,0 +1,5 @@
+If you have watched the chapter "Crawler", it may be that the next 2 lessons ("Excursus HTML") are already familiar to you.
+
+The topics overlap somewhat, but I want you to be able to look at this section "Flask" even if you have not looked at the section "Crawler". Therefore, this is intentional - if you have already looked at the section "Crawler", you can skip the next 2 lessons.
+
+The excursion CSS is, however, in any case again relevant.

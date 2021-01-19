@@ -1,0 +1,50 @@
+Special characters and coding
+
+Problem:
+How does a computer put a letter internally?
+
+Somehow with 0s and 1s
+
+ASCII
+
+ASCII (7 bit)
+
+Idea: We assign letters to different combinations of nummbers
+
+110 0001 = 0x61 = a
+110 0010 = 0x62 = b
+
+ISO 8859-1
+
+ISO-8859-1:
+
+Idea: We extend the ASCII - range to 8 bit, so we have twice as many characters available
+
+96 additional characters allow us to cover common Western European characters...
+
+ISO 8859-11:
+
+Idea: We extend ASCII - range to 8 bit, so we can have twice as many characters available 
+
+88 additional characters allow us to display common Thai characters...
+
+Problem: competing ISOs with same hex value for 2 different values
+
+We need to know in which character set a file is present in order to be able to read it correctly
+
+This used to go quite well
+
+But nowadays in time of the Internet we need 1 to rule them all
+
+Solution: One characters set for all 
+
+Solution: UTF-8
+One character set for all characters
+
+No matter what type
+
+One characters requires between 8 and 32 bits
+
+But practically all characters are supported
+
+And of course all emojis are supported!
