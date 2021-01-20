@@ -1,0 +1,49 @@
+The Data Science Stack
+
+In order to analyze data
+
+Stack in Python
+
+Explanation of terms:
+	Data Science: Science of large data volumes 
+
+	Stack: Stuff that is on top of each other (builds on each other)
+
+	What is the Data Science stack doing in Python now?
+
+Situation: 
+
+	So far we can already develop small programs in Python
+
+	And:
+
+		When we want to evaluate data, we often have a similar workflow 
+
+		Load data, display data in the table, draw a diagram from the data (make conclusions)
+
+Solutions:
+	
+	We use additional tools that relieve us of these tasks
+
+	This allow us to evaluate data faster, since we no longer have to code everything ourselves
+
+	We also become more flexible - for example you can open real Excel files with the pandas tool from the Data Science stack.
+
+But how is the Data Science Stack structured? 
+
+	The Data Science stack consists of different tools that complement each other, build on each other, etc.
+
+Overview:
+
+Python
+Layer above 
+Jupyter - sits on top of Python
+IPython - interlink of Jupyter/Python
+NumPy - tool which allows us to do mathematical calculations 
+Layer above 
+matplotlib
+pandas - data structures / data analytics
+SymPy - python library for symbolic mathematics
+scikit learn - ml
+PyTables - hierarchical data sets 
+Apache Spark - large scale data processing (can be combined with sql), runs on everything 

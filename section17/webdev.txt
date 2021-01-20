@@ -1,0 +1,17 @@
+Web Development in Python: What's Next?
+
+If you'd like to proceed learn:
+
+	HTML + CSS (in depth)
+	
+	JavaScript (in depth)
+
+	And of course Flask (there's a lot more to learn about it) / Django 
+
+Flask - learn even more about flask and python
+
+Learn how to use SQLAlchemy, which is required to store data in MySQL
+
+Alternative to flask == django - can create websites and db connections without use of SQLAlchemy 
+
+Django makes it easier to build better Web apps more quickly with less code.

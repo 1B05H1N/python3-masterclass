@@ -1,0 +1,33 @@
+{% include "layouts/main.html" %}
+
+{% block content %}
+	<h1>{{person[0]}} {{person[1]}}</h1>
+		{% for item in items %}
+			<p>{{item.name}} (Amount: {{ item.amount}} times)<p>
+		{% endfor %}
+
+
+		<div class="row">
+			<div class="six columns">
+				<table class="u-full-width">
+					<thead>
+						<tr>
+							<th>Heading col 1</th>
+							<th>Heading col 2</th>
+						</tr>
+					</thead>
+					<tr>
+						<td>Cell 1</td>
+						<td>Cell 1</td>
+					<tr>
+						<tr>
+						<td>Text</td>
+						<td>Additional Text</td>
+					<tr>
+				<table>
+			</div>
+			<div class="six columns">
+				
+			</div>
+		</div>
+{% endblock %}
