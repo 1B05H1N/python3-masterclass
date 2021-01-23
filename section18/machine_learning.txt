@@ -1,0 +1,10 @@
+
+Machine Learning
+
+Read large set of data, process it and make predictions. 
+
+Predict video you would like to watch. What the weather will be like tomorrow? How much should a flight ticket cost?
+
+One approach of prediction == linear regression
+
+Call algorithm and put in the right params, and let the ML do the work for you

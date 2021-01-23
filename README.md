@@ -5,4 +5,4 @@ These files were created while completing the "Python for beginners, Learn Pytho
 Python was ran via sublime text, and code pushed to github via sublime merge or github desktop.
 
 Note:
-You may notice that I stop using "%matplotlib" in section 9. I had trouble getting matplotlib to work with Sublime Text 3 on Windows, so I was using jupyter notebooks. Referencing https://github.com/numpy/numpy/issues/17726, I installed numpy v 1.19.3 and then pandas. 
+You may notice that I stop using "%matplotlib" in section 9. I had trouble getting matplotlib to work with Sublime Text 3 on Windows, so I was using jupyter notebooks. I fixed the issue with Sublime by following instructions found at https://github.com/numpy/numpy/issues/17726. The issue was resolved by uninstalling pandas, installing numpy v1.19.3 and then reinstalling pandas. 

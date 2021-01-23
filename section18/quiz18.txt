@@ -1,0 +1,16 @@
+Question 1: 
+You want to draw a graphic. Which tool do you use?
+
+Answer: Matplotlib
+
+Question 2:
+You want to import a CSV file and process the data comfortably. Which tool do you use? 
+Answer: Pandas
+
+Question 3:
+
+You have a Python list and want to perform some mathematical calculations for each entry. For example, you want to multiply each entry by 2 and then form the square.
+
+Which tool supports you perfectly? 
+
+Answer: Numbpy

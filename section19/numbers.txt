@@ -1,0 +1,15 @@
+OpenCV : Stored Numbers
+
+Basically this applies: 
+
+The larger the possible number, the more boxes you need
+
+Python ensures that any number can be stored in a variable, no matter the range the this number is located
+
+This automatic area detection requires additional memory 
+
+This is no problem with 1 number, but this is a problem with 12 million numbers
+
+Idea is that we limit the range of 0-255 for color values (8 bits)
+
+For this we use a more compact representation and can now store 12 million color values and process them without issue

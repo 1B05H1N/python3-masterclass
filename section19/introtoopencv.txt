@@ -1,0 +1,28 @@
+OpenCV
+
+Image processing with opencv
+
+Open an image, do facial recognition, and then get into some mathematics 
+
+Toolkit for computer vision 
+
+Open source computer vision
+
+Developed for C/C++ but can be controlled from python
+
+We can see an image as a collection of pixels
+
+Each pixel can have a brightness of 0-255 [[0,255,127],[255,0,127],127,0,255]]
+
+An image is nothing more than a multidimensional array of pixels
+
+OpenCV can handle a large amount of data without a lot of problems
+
+In python it uses Numpy 
+
+A color image stores 3 color values for each pixes (RGB)
+
+In OpenCV, order is reversed (BGR)
+
+Images can be stored as 3d arrays 
+
